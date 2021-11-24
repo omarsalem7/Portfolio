@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&display=swap");
+
+.navbar {
+  display: flex;
+  margin: 5%;
+}
+
+.logo {
+  flex: 1;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.tab {
+  background-color: #6070ff;
+  width: 25px;
+  height: 4px;
+  margin-bottom: 4px;
+  border-radius: 2px;
+}
+
+.header {
+  background-image: url("./assests/header-mobile-background.png");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  padding-top: 50px;
+  margin: 30px 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-title {
+  font-size: 40px;
+  font-style: normal;
+  line-height: 52px;
+  text-align: left;
+}
+
+.header-content {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.header-connect {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: #7f8cff;
+}
+
+.header-social {
+  display: flex;
+  text-align: left;
+  padding: 0;
+}
+
+.social-icon {
+  flex-direction: row;
+  padding: 0 15px 0 0;
+  list-style: none;
+}
