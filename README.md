@@ -2,11 +2,11 @@
 
 # Portfolio Project
 
-> This is my portfolio project with Microverse which contain two sections navbar and header.
+> This is my portfolio project with Microverse which contain two sections header and headline section.
 
 ![screenshot](./assests/ScreenshotPortfolio.png)
 
-Main feature of the project navbar and header sections.
+Main feature of the project headline section and header.
 
 ## Built With
 
