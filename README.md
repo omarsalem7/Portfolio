@@ -13,17 +13,13 @@ Main feature of the project headline section and header.
 - Html
 - Css
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
 ## Authors
 
 👤 **Omar Salem**
 
 - GitHub: [@githubhandle](https://github.com/omarsalem7)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://twitter.com/Omar80491499)
+- Twitter: [@twitterhandle](https://twitter.com/Omar80491499)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/omar-salem-a6945b177/)
 
 ## Show your support
 
