@@ -13,6 +13,10 @@ Main feature of the project headline section and header.
 - Html
 - Css
 
+## Live Demo
+
+[Live Demo Link](https://omarsalem7.github.io/Portfolio/)
+
 ## Authors
 
 👤 **Omar Salem**
