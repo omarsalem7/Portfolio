@@ -1,17 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&display=swap");
 
+body {
+  background-color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: #344563;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   display: flex;
-  margin: 5%;
+  background-color: #fff;
+  padding: 14px 24px;
 }
 
 .logo {
   flex: 1;
-  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
+  text-decoration: none;
   color: #6070ff;
 }
 
@@ -27,10 +42,10 @@
   background-image: url("./assests/header-mobile-background.png");
   background-size: cover;
   background-position: center;
-  height: 500px;
-  padding-top: 50px;
-  margin: 30px 10px;
-  font-family: "Poppins", sans-serif;
+  height: 507px;
+  padding: 50px 20px 0 20px;
+  border-bottom-left-radius: 50px;
+  background-color: #fff;
 }
 
 .header-title {
@@ -38,18 +53,19 @@
   font-style: normal;
   line-height: 52px;
   text-align: left;
+  margin: 20px 0;
+  color: #172b4d;
 }
 
 .header-content {
   font-size: 16px;
-  font-style: normal;
   line-height: 24px;
   text-align: justify;
 }
 
 .header-connect {
+  padding: 15px 0;
   font-size: 16px;
-  font-weight: bold;
   text-align: left;
   color: #7f8cff;
 }
@@ -64,4 +80,173 @@
   flex-direction: row;
   padding: 0 15px 0 0;
   list-style: none;
+}
+
+.works {
+  display: grid;
+  row-gap: 80px;
+  padding: 128px 6.5%;
+  width: auto;
+}
+
+.works-project {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 16px;
+}
+
+.works-project img {
+  width: 100%;
+}
+
+.works-title {
+  color: #172b4d;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  margin-top: 15px;
+}
+
+.works-list-project {
+  font-size: 13px;
+  color: #7a869a;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.works-list-project li {
+  margin-right: 32px;
+}
+
+.works-list-skills li {
+  background-color: #ebebff;
+  padding: 4px 12px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.works-list-project > li:first-child {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  list-style: none;
+}
+
+.works-list-project p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.works-list-skills {
+  display: flex;
+  list-style: none;
+  color: #7f8cff;
+  margin-top: 15px;
+}
+
+button {
+  color: #396df2;
+  border: 1.5px solid #396df2;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 10px;
+  background-color: transparent;
+  margin: 20px 0;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+button:disabled {
+  color: #5e6c84;
+  border-color: #c1c7d0;
+}
+
+.about {
+  background-color: #fff;
+  padding: 114px 24px;
+  border-top-right-radius: 50px;
+}
+
+.about .info .header-social {
+  padding-left: 8px;
+}
+
+.about .info button {
+  margin-top: 8px;
+}
+
+.experience-listlanguage p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 16px;
+}
+
+.about .info p {
+  text-align: justify;
+}
+
+.about .info h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 10px;
+  color: #172b4d;
+}
+
+.experience {
+  margin-top: 25px;
+}
+
+.experience .drop-down {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience .drop-down img {
+  margin-right: 20px;
+}
+
+.experience-list {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.experience-listlanguage {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  padding: 10px 12px;
+  border-radius: 7px;
+  margin: 12px 0;
+}
+
+.experience .close {
+  padding: 20px 0;
+  border-bottom: 2px solid #dfe1e6;
+}
+
+.experience .drop-down p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
 }

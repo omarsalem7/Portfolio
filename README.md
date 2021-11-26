@@ -1,21 +1,28 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio Project
+# My Portfolio Project
 
-> This is my portfolio project with Microverse which contain two sections header and headline section.
+> This website to show all my projects, and it is my gallary to show my projects.
 
 ![screenshot](./assests/ScreenshotPortfolio.png)
+![screenshot](./assests/work1.png)
+![screenshot](./assests/work2.png)
+![screenshot](./assests/work3.png)
+![screenshot](./assests/work4.png)
+![screenshot](./assests/about1.png)
+![screenshot](./assests/about2.png)
 
-Main feature of the project headline section and header.
+Main features of the project:
+
+- Navbar
+- headline section
+- my works section
+- about section
 
 ## Built With
 
 - Html
 - Css
-
-## Live Demo
-
-[Live Demo Link](https://omarsalem7.github.io/Portfolio/)
 
 ## Authors
 
