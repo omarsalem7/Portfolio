@@ -3,6 +3,8 @@
 body {
   background-color: #e5e5e5;
   font-family: "Poppins", sans-serif;
+}
+p {
   color: #344563;
 }
 
@@ -44,7 +46,7 @@ body {
   background-position: center;
   height: 507px;
   padding: 50px 20px 0 20px;
-  border-bottom-left-radius: 17%;
+  border-bottom-left-radius: 50px;
   background-color: #ffffff;
 }
 
@@ -53,6 +55,8 @@ body {
   font-style: normal;
   line-height: 52px;
   text-align: left;
+  margin: 20px 0;
+  color: #172b4d;
 }
 
 .header-content {
@@ -146,14 +150,13 @@ body {
 }
 
 button {
-  border: none;
   color: #396df2;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  font-size: 17px;
+  border: 1.5px solid #396df2;
+  border-radius: 10px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  padding: 14px;
+  padding: 10px;
   background-color: transparent;
   margin: 20px 0;
 }
@@ -171,4 +174,73 @@ button:active {
 button:disabled {
   color: #5e6c84;
   border-color: #c1c7d0;
+}
+
+.about {
+  background-color: #ffffff;
+  padding: 114px 24px;
+  border-top-right-radius: 50px;
+}
+
+.about .info .header-social {
+  padding-left: 8px;
+}
+
+.about .info button {
+  margin-top: 8px;
+}
+
+.about .info p {
+  text-align: justify;
+}
+
+.about .info h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 10px;
+  color: #172b4d;
+}
+.experience {
+  margin-top: 25px;
+}
+.experience .drop-down {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience .drop-down img {
+  margin-right: 20px;
+}
+
+.experience-list {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.experience-listlanguage {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  padding: 10px 12px;
+  border-radius: 7px;
+  margin: 12px 0;
+}
+
+.experience-listlanguage p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 16px;
+}
+.experience .close {
+  padding: 20px 0;
+  border-bottom: 2px solid #dfe1e6;
+}
+.experience .drop-down p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
 }
