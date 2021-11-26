@@ -84,17 +84,22 @@ p {
 
 .works {
   display: grid;
-  grid-gap: 80px;
-  padding: 130px 24px;
+  row-gap: 80px;
+  padding: 128px 6.5%;
+  width: auto;
+  padding: 100px 24px;
 }
 
 .works-project {
-  grid-template-columns: 1fr;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  padding: 16px;
   background-color: #fff;
+  padding: 16px;
+}
+
+.works-project img {
+  width: 100%;
 }
 
 .works-title {
