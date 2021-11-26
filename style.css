@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&display=swap");
 
+body {
+  background-color: #e5e5e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   display: flex;
-  margin: 5%;
+  background-color: #ffffff;
+  padding: 14px 24px;
 }
 
 .logo {
@@ -13,7 +23,8 @@
   font-weight: 700;
   line-height: 20px;
 }
-.logo a {
+
+.logo {
   text-decoration: none;
   color: #6070ff;
 }
@@ -30,10 +41,11 @@
   background-image: url("./assests/header-mobile-background.png");
   background-size: cover;
   background-position: center;
-  height: 500px;
-  margin: 30px 0;
+  height: 507px;
   font-family: "Poppins", sans-serif;
   padding: 50px 20px 0 20px;
+  border-bottom-left-radius: 17%;
+  background-color: #ffffff;
 }
 
 .header-title {
@@ -45,14 +57,13 @@
 
 .header-content {
   font-size: 16px;
-  font-style: normal;
   line-height: 24px;
   text-align: justify;
 }
 
 .header-connect {
+  padding: 15px 0;
   font-size: 16px;
-  font-weight: bold;
   text-align: left;
   color: #7f8cff;
 }
@@ -67,4 +78,18 @@
   flex-direction: row;
   padding: 0 15px 0 0;
   list-style: none;
+}
+
+.works {
+  display: grid;
+  padding-top: 130px;
+  grid-gap: 80px;
+  padding: 130px 24px;
+}
+
+.works-project {
+  grid-template-columns: auto;
+  background-color: #7f8cff;
+  height: 500px;
+  border-radius: 8px;
 }
