@@ -12,6 +12,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
+}
+.logo a {
+  text-decoration: none;
   color: #6070ff;
 }
 
@@ -28,9 +31,9 @@
   background-size: cover;
   background-position: center;
   height: 500px;
-  padding-top: 50px;
-  margin: 30px 10px;
+  margin: 30px 0;
   font-family: "Poppins", sans-serif;
+  padding: 50px 20px 0 20px;
 }
 
 .header-title {
