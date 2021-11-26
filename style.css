@@ -4,6 +4,7 @@ body {
   background-color: #e5e5e5;
   font-family: "Poppins", sans-serif;
 }
+
 p {
   color: #344563;
 }
@@ -15,7 +16,7 @@ p {
 
 .navbar {
   display: flex;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 14px 24px;
 }
 
@@ -25,9 +26,6 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
-}
-
-.logo {
   text-decoration: none;
   color: #6070ff;
 }
@@ -47,7 +45,7 @@ p {
   height: 507px;
   padding: 50px 20px 0 20px;
   border-bottom-left-radius: 50px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .header-title {
@@ -96,7 +94,7 @@ p {
   display: flex;
   flex-direction: column;
   padding: 16px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .works-title {
@@ -117,16 +115,23 @@ p {
   margin: 10px 0;
 }
 
+.works-list-project li {
+  margin-right: 32px;
+}
+
+.works-list-skills li {
+  background-color: #ebebff;
+  padding: 4px 12px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
 .works-list-project > li:first-child {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
   color: #344563;
   list-style: none;
-}
-
-.works-list-project li {
-  margin-right: 32px;
 }
 
 .works-list-project p {
@@ -140,13 +145,6 @@ p {
   list-style: none;
   color: #7f8cff;
   margin-top: 15px;
-}
-
-.works-list-skills li {
-  background-color: #ebebff;
-  padding: 4px 12px;
-  border-radius: 8px;
-  margin-right: 8px;
 }
 
 button {
@@ -177,7 +175,7 @@ button:disabled {
 }
 
 .about {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 114px 24px;
   border-top-right-radius: 50px;
 }
@@ -188,6 +186,14 @@ button:disabled {
 
 .about .info button {
   margin-top: 8px;
+}
+
+.experience-listlanguage p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 16px;
 }
 
 .about .info p {
@@ -201,9 +207,11 @@ button:disabled {
   margin-bottom: 10px;
   color: #172b4d;
 }
+
 .experience {
   margin-top: 25px;
 }
+
 .experience .drop-down {
   display: flex;
   justify-content: space-between;
@@ -227,17 +235,11 @@ button:disabled {
   margin: 12px 0;
 }
 
-.experience-listlanguage p {
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #253858;
-  margin-left: 16px;
-}
 .experience .close {
   padding: 20px 0;
   border-bottom: 2px solid #dfe1e6;
 }
+
 .experience .drop-down p {
   font-size: 20px;
   font-weight: 500;
