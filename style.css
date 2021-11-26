@@ -2,6 +2,8 @@
 
 body {
   background-color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+  color: #344563;
 }
 
 * {
@@ -17,7 +19,6 @@ body {
 
 .logo {
   flex: 1;
-  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -42,7 +43,6 @@ body {
   background-size: cover;
   background-position: center;
   height: 507px;
-  font-family: "Poppins", sans-serif;
   padding: 50px 20px 0 20px;
   border-bottom-left-radius: 17%;
   background-color: #ffffff;
@@ -82,14 +82,93 @@ body {
 
 .works {
   display: grid;
-  padding-top: 130px;
   grid-gap: 80px;
   padding: 130px 24px;
 }
 
 .works-project {
-  grid-template-columns: auto;
-  background-color: #7f8cff;
-  height: 500px;
+  grid-template-columns: 1fr;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.works-title {
+  color: #172b4d;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  margin-top: 15px;
+}
+
+.works-list-project {
+  font-size: 13px;
+  color: #7a869a;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.works-list-project > li:first-child {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  list-style: none;
+}
+
+.works-list-project li {
+  margin-right: 32px;
+}
+
+.works-list-project p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.works-list-skills {
+  display: flex;
+  list-style: none;
+  color: #7f8cff;
+  margin-top: 15px;
+}
+
+.works-list-skills li {
+  background-color: #ebebff;
+  padding: 4px 12px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+button {
+  border: none;
+  color: #396df2;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 14px;
+  background-color: transparent;
+  margin: 20px 0;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+button:disabled {
+  color: #5e6c84;
+  border-color: #c1c7d0;
 }
