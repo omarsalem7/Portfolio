@@ -202,6 +202,14 @@ button:disabled {
   margin-left: 16px;
 }
 
+.contact p {
+  padding: 0 20px;
+  text-align: justify;
+  color: #ebebff;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
 .about .info p {
   text-align: justify;
 }
@@ -271,16 +279,8 @@ button:disabled {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  color: #ffffff;
+  color: #fff;
   padding: 100px 0 20px 0;
-}
-
-.contact p {
-  padding: 0 20px;
-  text-align: justify;
-  color: #ebebff;
-  padding-bottom: 20px;
-  text-align: center;
 }
 
 .contact-form {
@@ -289,7 +289,7 @@ button:disabled {
 }
 
 .form-input {
-  background: #ffffff;
+  background: #fff;
   padding: 12px 90px 12px 15px;
   border: 1px solid #cfd8dc;
   margin-bottom: 20px;
@@ -298,7 +298,7 @@ button:disabled {
 }
 
 .contact-btn {
-  background-color: #ffffff;
+  background-color: #fff;
   width: 45%;
   color: #6070ff;
   font-size: 17px;
