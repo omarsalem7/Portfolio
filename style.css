@@ -182,6 +182,8 @@ button:disabled {
   background-color: #fff;
   padding: 114px 24px;
   border-top-right-radius: 50px;
+  padding-bottom: 200px;
+  z-index: -1;
 }
 
 .about .info .header-social {
@@ -198,6 +200,13 @@ button:disabled {
   line-height: 20px;
   color: #253858;
   margin-left: 16px;
+}
+
+.contact p {
+  padding: 0 20px;
+  color: #ebebff;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .about .info p {
@@ -249,4 +258,53 @@ button:disabled {
   font-weight: 500;
   line-height: 24px;
   text-align: left;
+}
+
+.contact {
+  margin-top: -80px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6070ff;
+  background-image: url("./assests/contact-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  border-top-left-radius: 40px;
+  min-height: 100vh;
+}
+
+.contact-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  padding: 100px 0 20px 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  background: #fff;
+  padding: 12px 90px 12px 15px;
+  border: 1px solid #cfd8dc;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.contact-btn {
+  background-color: #fff;
+  width: 45%;
+  color: #6070ff;
+  font-size: 17px;
+  margin-top: 0;
+}
+
+::placeholder {
+  font-size: 12px;
+  color: #b3bac5;
 }
