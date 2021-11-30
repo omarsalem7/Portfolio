@@ -182,6 +182,8 @@ button:disabled {
   background-color: #fff;
   padding: 114px 24px;
   border-top-right-radius: 50px;
+  padding-bottom: 200px;
+  z-index: -1;
 }
 
 .about .info .header-social {
@@ -250,5 +252,3 @@ button:disabled {
   line-height: 24px;
   text-align: left;
 }
-
-
