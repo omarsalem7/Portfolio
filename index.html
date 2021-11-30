@@ -224,11 +224,11 @@
         <h2 class="contact-title">Contact me</h2>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that
             needs coding. I’d love to help with it </p>
-        <form class="contact-form">
-            <input class="form-input" maxlength="30" placeholder="Name" type="text" required />
-            <input class="form-input" placeholder="email@example.com" type="email" required />
-            <textarea maxlength="500" rows="6" cols="10" class="form-input" placeholder="Write your message here"
-                required></textarea>
+        <form class="contact-form" action="https://formspree.io/f/myyogbyl" method="POST">
+            <input class="form-input" name="name" maxlength="30" placeholder="Name" type="text" required />
+            <input class="form-input" name="email" placeholder="email@example.com" type="email" required />
+            <textarea maxlength="500" name="message" rows="6" cols="10" class="form-input"
+                placeholder="Write your message here" required></textarea>
             <button type="submit" class="contact-btn">Get It Touch</button>
         </form>
     </section>
