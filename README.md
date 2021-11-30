@@ -11,13 +11,16 @@
 ![screenshot](./assests/work4.png)
 ![screenshot](./assests/about1.png)
 ![screenshot](./assests/about2.png)
+![screenshot](./assests/contact-screen.png)
 
 Main features of the project:
 
 - Navbar
 - headline section
-- my works section
-- about section
+- My works section
+- About section
+- Contact Me
+- Send contact info by using Formspree service.
 
 ## Built With
 
