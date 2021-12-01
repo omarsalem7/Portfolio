@@ -17,7 +17,7 @@ p {
 .navbar {
   display: flex;
   background-color: #fff;
-  padding: 14px 24px;
+  padding: 20px 24px;
 }
 
 .logo {
@@ -206,10 +206,10 @@ button:disabled {
 }
 
 .contact p {
-  padding: 0 10%;
   color: #ebebff;
-  padding-bottom: 20px;
   text-align: center;
+  width: 327px;
+  padding-bottom: 20px;
 }
 
 .about .info p {
@@ -288,6 +288,8 @@ button:disabled {
 .contact-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-input {
@@ -313,22 +315,31 @@ button:disabled {
 }
 
 @media screen and (min-width: 992px) {
+  
+  p {
+    font-size: 20px;
+  }
+
   .header {
     background-image: url("./assests/desktop-header-bg.png");
     background-position-y: 0;
-    padding: 140px 150px 0 150px;
+    padding: 140px 160px 0 160px;
   }
+
   .navbar-humberger {
     display: none;
   }
+
   .navbar-items {
     display: flex;
     padding-right: 60px;
   }
+
   .item {
     list-style: none;
     padding-right: 40px;
   }
+
   .item a:link {
     text-decoration: none;
     color: #344563;
@@ -337,16 +348,18 @@ button:disabled {
     font-weight: 500;
   }
 
+  .header-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+
   .works-project {
-    /* border-radius: 8px; 
-    display: flex;
-    flex-direction: row;
-    background-color: #fff;
-    padding: 16px; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 30px;
   }
+
   .works-project-item1 {
     order: 1;
   }
@@ -355,7 +368,49 @@ button:disabled {
     order: -1;
   }
 
-  /* .works-reverse {
-    direction: rtl;
-  } */
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 37px;
+    padding: 114px 130px 180px 130px;
+  }
+
+  .experience-list {
+    display: flex;
+  }
+
+  .experience-listlanguage {
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+    align-items: flex-start;
+    width: 70px;
+  }
+
+  .experience-listlanguage p {
+    padding-top: 16px;
+    margin-left: 0;
+  }
+
+  .contact p {
+    width: 450px;
+  }
+
+  .form-input {
+    background: #fff;
+    padding: 12px 170px 12px 15px;
+    border: 1px solid #cfd8dc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .works-title {
+    font-size: 40px;
+  }
+
+  .contact {
+    background-image: url("./assests/desktop-contact-bg.png");
+  }
+
 }
