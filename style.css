@@ -322,7 +322,6 @@ button:disabled {
 
   .header {
     background-image: url("./assests/desktop-header-bg.png");
-    background-position-y: 0;
     padding: 190px 160px 0 160px;
     background-size: contain;
     background-position-y: 50px;
