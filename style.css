@@ -17,7 +17,7 @@ p {
 .navbar {
   display: flex;
   background-color: #fff;
-  padding: 14px 24px;
+  padding: 20px 24px;
 }
 
 .logo {
@@ -38,11 +38,15 @@ p {
   border-radius: 2px;
 }
 
+.navbar-items {
+  display: none;
+}
+
 .header {
   background-image: url("./assests/header-mobile-background.png");
   background-size: cover;
   background-position: center;
-  height: 507px;
+  height: 500px;
   padding: 50px 20px 0 20px;
   border-bottom-left-radius: 50px;
   background-color: #fff;
@@ -54,7 +58,7 @@ p {
   line-height: 52px;
   text-align: left;
   margin: 20px 0;
-  color: #172b4d;
+  color: #091e42;
 }
 
 .header-content {
@@ -64,7 +68,7 @@ p {
 }
 
 .header-connect {
-  padding: 15px 0;
+  padding: 10px 0;
   font-size: 16px;
   text-align: left;
   color: #7f8cff;
@@ -203,10 +207,10 @@ button:disabled {
 }
 
 .contact p {
-  padding: 0 20px;
   color: #ebebff;
-  padding-bottom: 20px;
   text-align: center;
+  width: 327px;
+  padding-bottom: 20px;
 }
 
 .about .info p {
@@ -285,6 +289,8 @@ button:disabled {
 .contact-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-input {
@@ -307,4 +313,107 @@ button:disabled {
 ::placeholder {
   font-size: 12px;
   color: #b3bac5;
+}
+
+@media screen and (min-width: 992px) {
+  p {
+    font-size: 20px;
+  }
+
+  .header {
+    background-image: url("./assests/desktop-header-bg.png");
+    padding: 190px 160px 0 160px;
+    background-size: contain;
+    background-position-y: 50px;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+  }
+
+  .navbar-humberger {
+    display: none;
+  }
+
+  .navbar-items {
+    display: flex;
+    padding-right: 60px;
+  }
+
+  .item {
+    list-style: none;
+    padding-right: 40px;
+  }
+
+  .item a:link {
+    text-decoration: none;
+    color: #344563;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  .header-title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 7px;
+  }
+
+  .works-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+
+  .works-project-item1 {
+    order: 1;
+  }
+
+  .works-project-item {
+    order: -1;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 37px;
+    padding: 114px 130px 180px 130px;
+  }
+
+  .experience-list {
+    display: flex;
+  }
+
+  .experience-listlanguage {
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+    align-items: flex-start;
+    width: 70px;
+  }
+
+  .experience-listlanguage p {
+    padding-top: 16px;
+    margin-left: 0;
+  }
+
+  .contact p {
+    width: 450px;
+  }
+
+  .form-input {
+    background: #fff;
+    padding: 12px 170px 12px 15px;
+    border: 1px solid #cfd8dc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .works-title {
+    font-size: 40px;
+  }
+
+  .contact {
+    background-image: url("./assests/desktop-contact-bg.png");
+  }
 }

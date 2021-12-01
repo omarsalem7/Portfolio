@@ -21,11 +21,12 @@ Main features of the project:
 - About section
 - Contact Me
 - Send contact info by using Formspree service.
+- Responsive to all screen
 
 ## Built With
 
 - Html
-- Css
+- Css3
 
 ## Authors
 
