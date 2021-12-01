@@ -46,7 +46,7 @@ p {
   background-image: url("./assests/header-mobile-background.png");
   background-size: cover;
   background-position: center;
-  height: 507px;
+  height: 500px;
   padding: 50px 20px 0 20px;
   border-bottom-left-radius: 50px;
   background-color: #fff;
@@ -68,7 +68,7 @@ p {
 }
 
 .header-connect {
-  padding: 15px 0;
+  padding: 10px 0;
   font-size: 16px;
   text-align: left;
   color: #7f8cff;
@@ -323,7 +323,11 @@ button:disabled {
   .header {
     background-image: url("./assests/desktop-header-bg.png");
     background-position-y: 0;
-    padding: 140px 160px 0 160px;
+    padding: 190px 160px 0 160px;
+    background-size: contain;
+    background-position-y: 50px;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
   }
 
   .navbar-humberger {
@@ -349,9 +353,10 @@ button:disabled {
   }
 
   .header-title {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 50px;
+    margin-bottom: 7px;
   }
 
   .works-project {
