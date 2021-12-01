@@ -37,6 +37,9 @@ p {
   margin-bottom: 4px;
   border-radius: 2px;
 }
+.navbar-items {
+  display: none;
+}
 
 .header {
   background-image: url("./assests/header-mobile-background.png");
@@ -54,7 +57,7 @@ p {
   line-height: 52px;
   text-align: left;
   margin: 20px 0;
-  color: #172b4d;
+  color: #091e42;
 }
 
 .header-content {
@@ -203,7 +206,7 @@ button:disabled {
 }
 
 .contact p {
-  padding: 0 20px;
+  padding: 0 10%;
   color: #ebebff;
   padding-bottom: 20px;
   text-align: center;
@@ -307,4 +310,52 @@ button:disabled {
 ::placeholder {
   font-size: 12px;
   color: #b3bac5;
+}
+
+@media screen and (min-width: 992px) {
+  .header {
+    background-image: url("./assests/desktop-header-bg.png");
+    background-position-y: 0;
+    padding: 140px 150px 0 150px;
+  }
+  .navbar-humberger {
+    display: none;
+  }
+  .navbar-items {
+    display: flex;
+    padding-right: 60px;
+  }
+  .item {
+    list-style: none;
+    padding-right: 40px;
+  }
+  .item a:link {
+    text-decoration: none;
+    color: #344563;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  .works-project {
+    /* border-radius: 8px; 
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 16px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+  .works-project-item1 {
+    order: 1;
+  }
+
+  .works-project-item {
+    order: -1;
+  }
+
+  /* .works-reverse {
+    direction: rtl;
+  } */
 }
