@@ -37,6 +37,7 @@ p {
   margin-bottom: 4px;
   border-radius: 2px;
 }
+
 .navbar-items {
   display: none;
 }
@@ -315,7 +316,6 @@ button:disabled {
 }
 
 @media screen and (min-width: 992px) {
-  
   p {
     font-size: 20px;
   }
@@ -412,5 +412,4 @@ button:disabled {
   .contact {
     background-image: url("./assests/desktop-contact-bg.png");
   }
-
 }
