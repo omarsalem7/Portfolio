@@ -30,6 +30,11 @@ p {
   color: #6070ff;
 }
 
+.navbar-humberger {
+  animation-name: example;
+  animation-duration: 2s;
+}
+
 .tab {
   background-color: #6070ff;
   width: 25px;
@@ -165,6 +170,7 @@ button {
   padding: 10px;
   background-color: transparent;
   margin: 20px 0;
+  transition: background-color 2s;
 }
 
 button:hover {
@@ -313,6 +319,16 @@ button:disabled {
 ::placeholder {
   font-size: 12px;
   color: #b3bac5;
+}
+
+@keyframes example {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media screen and (min-width: 992px) {
