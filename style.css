@@ -108,11 +108,6 @@ p {
 
 .works-project img {
   width: 100%;
-  transition: transform 1.5s;
-}
-
-.works-project img:hover {
-  transform: scale(108%, 110%);
 }
 
 .works-title {
@@ -330,6 +325,7 @@ button:disabled {
   0% {
     transform: rotate(0);
   }
+
   100% {
     transform: rotate(360deg);
   }
