@@ -28,6 +28,10 @@ Main features of the project:
 - Html
 - Css3
 
+## Live Demo
+
+[Live Demo Link](https://omarsalem7.github.io/Portfolio/)
+
 ## Authors
 
 👤 **Omar Salem**
