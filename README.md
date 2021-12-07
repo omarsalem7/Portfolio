@@ -22,6 +22,7 @@ Main features of the project:
 - Contact Me
 - Send contact info by using Formspree service.
 - Responsive to all screen
+- Have good accessibility
 
 ## Built With
 
