@@ -16,13 +16,14 @@
 Main features of the project:
 
 - Navbar
-- headline section
+- Headline section
 - My works section
 - About section
 - Contact Me
 - Send contact info by using Formspree service.
 - Responsive to all screen
 - Have good accessibility
+- Has google analytics
 
 ## Built With
 
