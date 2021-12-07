@@ -27,7 +27,7 @@ p {
   font-weight: 700;
   line-height: 20px;
   text-decoration: none;
-  color: #6070ff;
+  color: #142cff;
 }
 
 .navbar-humberger {
@@ -76,7 +76,7 @@ p {
   padding: 10px 0;
   font-size: 16px;
   text-align: left;
-  color: #7f8cff;
+  color: #0017eb;
 }
 
 .header-social {
@@ -121,7 +121,7 @@ p {
 
 .works-list-project {
   font-size: 13px;
-  color: #7a869a;
+  color: #4b5363;
   display: flex;
   padding: 0;
   align-items: center;
@@ -156,7 +156,7 @@ p {
 .works-list-skills {
   display: flex;
   list-style: none;
-  color: #7f8cff;
+  color: #0017eb;
   margin-top: 15px;
 }
 
@@ -213,10 +213,11 @@ button:disabled {
 }
 
 .contact p {
-  color: #ebebff;
+  color: #fff;
   text-align: center;
   width: 327px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  background-color: #4d4d4d;
 }
 
 .about .info p {
@@ -310,12 +311,13 @@ button:disabled {
 
 .contact-form label {
   color: #fff;
+  background-color: #4d4d4d;
 }
 
 .contact-btn {
   background-color: #fff;
   width: 45%;
-  color: #6070ff;
+  color: #0017eb;
   font-size: 17px;
   margin-top: 0;
 }
