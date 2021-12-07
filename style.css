@@ -327,6 +327,18 @@ button:disabled {
   color: #b3bac5;
 }
 
+input:focus {
+  color: red;
+  outline: 2px solid orange;
+  background-color: yellow;
+}
+
+textarea:focus {
+  color: red;
+  outline: 2px solid orange;
+  background-color: yellow;
+}
+
 @keyframes example {
   0% {
     transform: rotate(0);
