@@ -4,14 +4,7 @@
 
 > This website to show all my projects, and it is my gallary to show my projects.
 
-![screenshot](./assests/ScreenshotPortfolio.png)
-![screenshot](./assests/work1.png)
-![screenshot](./assests/work2.png)
-![screenshot](./assests/work3.png)
-![screenshot](./assests/work4.png)
-![screenshot](./assests/about1.png)
-![screenshot](./assests/about2.png)
-![screenshot](./assests/contact-screen.png)
+![screenshot](./assests/main-screen-reademe.png)
 
 Main features of the project:
 
