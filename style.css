@@ -308,6 +308,10 @@ button:disabled {
   outline: none;
 }
 
+.contact-form label {
+  color: #fff;
+}
+
 .contact-btn {
   background-color: #fff;
   width: 45%;

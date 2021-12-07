@@ -234,9 +234,12 @@
             love to help with it
         </p>
         <form class="contact-form" action="https://formspree.io/f/myyogbyl" method="POST">
-            <input class="form-input" name="name" maxlength="30" placeholder="Name" type="text" required />
-            <input class="form-input" name="email" placeholder="email@example.com" type="email" required />
-            <textarea maxlength="500" name="message" rows="6" cols="20" class="form-input"
+            <label for="name">Full Name</label>
+            <input class="form-input" id="name" name="name" maxlength="30" placeholder="Name" type="text" required />
+            <label for="email">Email</label>
+            <input class="form-input" id="email" name="email" placeholder="email@example.com" type="email" required />
+            <label for="message">Message</label>
+            <textarea maxlength="500" id="message" name="message" rows="6" cols="20" class="form-input"
                 placeholder="Write your message here" required></textarea>
             <button type="submit" class="contact-btn">Get It Touch</button>
         </form>
