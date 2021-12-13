@@ -14,6 +14,10 @@ p {
   padding: 0;
 }
 
+.blur {
+  filter: blur(8px);
+}
+
 .navbar {
   display: flex;
   background-color: #fff;
@@ -55,6 +59,7 @@ p {
   padding: 50px 20px 0 20px;
   border-bottom-left-radius: 50px;
   background-color: #fff;
+  /* filter: blur(8px); */
 }
 
 .header-title {
@@ -330,6 +335,49 @@ button:disabled {
     transform: rotate(360deg);
   }
 }
+/* start */
+
+.overlay-background {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(23, 45, 245, 0.7);
+  overflow-x: hidden;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  text-align: left;
+}
+
+/* The navigation links inside the overlay */
+.overlay-background a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 36px;
+
+  display: block;
+  transition: 0.3s;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 44px;
+  text-align: left;
+  color: #fff;
+}
+
+/* Position the close button (top right corner) */
+.overlay-background .closeIcon {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}
+
+/* finish */
 
 @media screen and (min-width: 992px) {
   p {
