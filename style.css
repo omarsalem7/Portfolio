@@ -14,6 +14,10 @@ p {
   padding: 0;
 }
 
+.blur {
+  filter: blur(8px);
+}
+
 .navbar {
   display: flex;
   background-color: #fff;
@@ -329,6 +333,42 @@ button:disabled {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.overlay-background {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(23, 45, 245, 0.69);
+  overflow-x: hidden;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  text-align: left;
+}
+
+.overlay-background a {
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 44px;
+  text-align: left;
+  color: #fff;
+}
+
+.overlay-background .closeIcon {
+  position: absolute;
+  top: 0;
+  right: 15px;
 }
 
 @media screen and (min-width: 992px) {

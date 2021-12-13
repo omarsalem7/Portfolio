@@ -19,6 +19,16 @@
 </head>
 
 <body>
+    <!-- overlay mobile menu code -->
+    <div id="navbar-overlay" class="overlay-background">
+        <a class="closeIcon"><img src="./assests/close-icon.png" alt="Close icon"></a>
+        <ul class="overlay-content">
+            <li class="overlay-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="overlay-item"><a href="#about">About</a></li>
+            <li class="overlay-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
     <!-- header section -->
     <header class="navbar">
         <a href="#" class="logo">My Logo</a>
@@ -36,6 +46,7 @@
         </ul>
 
     </header>
+
     <!-- headline section -->
     <section class="header">
         <h1 class="header-title">
@@ -78,7 +89,7 @@
     </section>
     <!-- portfolio projects works -->
 
-    <section class="works">
+    <section class="works" id="portfolio">
         <div class="works-project">
             <img src="./assests/desktop-project1.png" alt="project1" />
             <div>
@@ -156,7 +167,7 @@
     </section>
 
     <!-- About section -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="info">
             <h2>About
                 <br>Myself
@@ -234,7 +245,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <h2 class="contact-title">Contact me</h2>
         <p>
             If you have an application you are
@@ -250,6 +261,8 @@
             <button type="submit" class="contact-btn">Get It Touch</button>
         </form>
     </section>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>
