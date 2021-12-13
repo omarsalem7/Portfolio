@@ -335,7 +335,6 @@ button:disabled {
     transform: rotate(360deg);
   }
 }
-/* start */
 
 .overlay-background {
   height: 100%;
@@ -344,7 +343,7 @@ button:disabled {
   z-index: 1;
   left: 0;
   top: 0;
-  background-color: rgba(23, 45, 245, 0.7);
+  background-color: rgba(23, 45, 245, 0.69);
   overflow-x: hidden;
 }
 
@@ -354,7 +353,6 @@ button:disabled {
   text-align: left;
 }
 
-/* The navigation links inside the overlay */
 .overlay-background a {
   padding: 15px;
   text-decoration: none;
@@ -370,14 +368,11 @@ button:disabled {
   color: #fff;
 }
 
-/* Position the close button (top right corner) */
 .overlay-background .closeIcon {
   position: absolute;
   top: 0px;
   right: 15px;
 }
-
-/* finish */
 
 @media screen and (min-width: 992px) {
   p {

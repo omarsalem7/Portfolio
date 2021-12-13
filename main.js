@@ -28,4 +28,3 @@ overlay_content.addEventListener("click", function () {
   navbar.classList.remove("blur");
   header.classList.remove("blur");
 });
-
