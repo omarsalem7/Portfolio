@@ -17,11 +17,13 @@ Main features of the project:
 - Responsive to all screen
 - Have good accessibility
 - Has google analytics
+- Mobile menu navigations
 
 ## Built With
 
 - Html
 - Css3
+- JavaScript
 
 ## Live Demo
 
