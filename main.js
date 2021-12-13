@@ -15,20 +15,20 @@ function openLayoutFunction() {
 openIcon.addEventListener('click', openLayoutFunction);
 
 function closeLayoutFunction() {
-  //remove the overlay
+  //    remove the overlay
   navbarOverlay.style.width = '0%';
-  // remove blur from background
+  //    remove blur from background
   navbar.classList.remove('blur');
   header.classList.remove('blur');
 }
 
 closeIcon.addEventListener('click', closeLayoutFunction);
 
-const overlay_content = document.querySelector('.overlay-content');
+const overlayContent = document.querySelector('.overlay-content');
 
 function clickOnMenuLinkfunction() {
   navbarOverlay.style.width = '0%';
   navbar.classList.remove('blur');
   header.classList.remove('blur');
 }
-overlay_content.addEventListener('click', clickOnMenuLinkfunction);
+overlayContent.addEventListener('click', clickOnMenuLinkfunction);
