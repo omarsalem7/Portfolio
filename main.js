@@ -13,3 +13,19 @@ openIcon.addEventListener("click", function () {
   navbar.classList.add("blur");
   header.classList.add("blur");
 });
+
+closeIcon.addEventListener("click", function () {
+  //remove the overlay
+  navbarOverlay.style.width = "0%";
+  // remove blur from background
+  navbar.classList.remove("blur");
+  header.classList.remove("blur");
+});
+
+const overlay_content = document.querySelector(".overlay-content");
+overlay_content.addEventListener("click", function () {
+  navbarOverlay.style.width = "0%";
+  navbar.classList.remove("blur");
+  header.classList.remove("blur");
+});
+
