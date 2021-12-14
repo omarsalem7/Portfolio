@@ -42,11 +42,11 @@ const worksData = [
 ];
 
 // create works project dynamically
-let worksContainer = document.querySelector('#portfolio');
+const worksContainer = document.querySelector('#portfolio');
 worksData.forEach((work) => {
-  let workProject = document.createElement('div');
+  const workProject = document.createElement('div');
   let workContent;
-  if (work.id % 2 == 0) {
+  if (work.id % 2 === 0) {
     workContent = ` <div class="works-project">
       <img class="works-img" src=${work.urlImage} alt="${work.name}" />
       <div>
@@ -91,12 +91,12 @@ worksData.forEach((work) => {
 
 // create a modal
 worksData.forEach((work) => {
-  let overlayContainer = document.createElement('div');
+  const overlayContainer = document.createElement('div');
   overlayContainer.id = 'overlay';
-  let modalContainer = document.createElement('div');
+  const modalContainer = document.createElement('div');
   modalContainer.id = `modal${work.id}`;
   modalContainer.classList.add('modal');
-  let modalContent = `
+  const modalContent = `
       <div class="modal-header">
         <div class="title">${work.name}</div>
         <button data-close-button class="close-button">&times;</button>
@@ -132,6 +132,11 @@ worksData.forEach((work) => {
 // Add open and close functionality modal to works project
 const modalOpenButtons = document.querySelectorAll('[data-modal-target]');
 const overlay = document.getElementById('overlay');
+function modalOpen(modal) {
+  if (modal == null) return;
+  modal.classList.add('active');
+  overlay.classList.add('active');
+}
 modalOpenButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const modalChoose = document.querySelector(`${button.dataset.modalTarget}`);
@@ -139,22 +144,15 @@ modalOpenButtons.forEach((button) => {
   });
 });
 
-function modalOpen(modal) {
-  if (modal == null) return;
-  modal.classList.add('active');
-  overlay.classList.add('active');
-}
-
 const modalCloseButtons = document.querySelectorAll('[data-close-button]');
+function modalClose(modal) {
+  if (modal == null) return;
+  modal.classList.remove('active');
+  overlay.classList.remove('active');
+}
 modalCloseButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const modalChoose = button.closest('.modal');
     modalClose(modalChoose);
   });
 });
-
-function modalClose(modal) {
-  if (modal == null) return;
-  modal.classList.remove('active');
-  overlay.classList.remove('active');
-}

@@ -574,7 +574,7 @@ button:disabled {
   .contact {
     background-image: url('./assests/desktop-contact-bg.png');
   }
- 
+
   .modal {
     font-size: 15px;
   }
@@ -598,6 +598,4 @@ button:disabled {
   #btn-modal {
     font-size: 15px;
   }
-
 }
-
