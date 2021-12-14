@@ -136,6 +136,8 @@ function modalOpen(modal) {
   if (modal == null) return;
   modal.classList.add('active');
   overlay.classList.add('active');
+  navbar.classList.add('blur');
+  worksContainer.classList.add('works-blur');
 }
 modalOpenButtons.forEach((button) => {
   button.addEventListener('click', () => {
@@ -149,6 +151,7 @@ function modalClose(modal) {
   if (modal == null) return;
   modal.classList.remove('active');
   overlay.classList.remove('active');
+  worksContainer.classList.remove('works-blur');
 }
 modalCloseButtons.forEach((button) => {
   button.addEventListener('click', () => {

@@ -102,6 +102,10 @@ p {
   width: auto;
 }
 
+.works-blur {
+  filter: blur(8px);
+}
+
 .works-project {
   border-radius: 8px;
   display: flex;
@@ -378,7 +382,7 @@ button:disabled {
 }
 
 .modal {
-  font-size: 10px;
+  font-size: 12px;
   position: fixed;
   top: 50%;
   left: 50%;
