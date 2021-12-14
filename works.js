@@ -136,7 +136,6 @@ function modalOpen(modal) {
   if (modal == null) return;
   modal.classList.add('active');
   overlay.classList.add('active');
-  navbar.classList.add('blur');
   worksContainer.classList.add('works-blur');
 }
 modalOpenButtons.forEach((button) => {
