@@ -102,10 +102,6 @@ p {
   width: auto;
 }
 
-.works-blur {
-  filter: blur(8px);
-}
-
 .works-project {
   border-radius: 8px;
   display: flex;

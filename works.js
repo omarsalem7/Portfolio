@@ -136,7 +136,7 @@ function modalOpen(modal) {
   if (modal == null) return;
   modal.classList.add('active');
   overlay.classList.add('active');
-  worksContainer.classList.add('works-blur');
+  worksContainer.classList.add('blur');
 }
 modalOpenButtons.forEach((button) => {
   button.addEventListener('click', () => {
@@ -150,7 +150,7 @@ function modalClose(modal) {
   if (modal == null) return;
   modal.classList.remove('active');
   overlay.classList.remove('active');
-  worksContainer.classList.remove('works-blur');
+  worksContainer.classList.remove('blur');
 }
 modalCloseButtons.forEach((button) => {
   button.addEventListener('click', () => {
