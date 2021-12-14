@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&display=swap');
 
 body {
   background-color: #e5e5e5;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 p {
@@ -52,7 +52,7 @@ p {
 }
 
 .header {
-  background-image: url("./assests/header-mobile-background.png");
+  background-image: url('./assests/header-mobile-background.png');
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -110,7 +110,7 @@ p {
   padding: 16px;
 }
 
-.works-project img {
+.works-img {
   width: 100%;
 }
 
@@ -140,7 +140,7 @@ p {
   background-color: #ebebff;
   padding: 4px 12px;
   border-radius: 8px;
-  margin-right: 8px;
+  margin: 10px 8px 0 0;
 }
 
 .works-list-project > li:first-child {
@@ -162,6 +162,12 @@ p {
   list-style: none;
   color: #7f8cff;
   margin-top: 15px;
+}
+
+.skills-modal {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
 }
 
 button {
@@ -281,7 +287,7 @@ button:disabled {
   flex-direction: column;
   align-items: center;
   background-color: #6070ff;
-  background-image: url("./assests/contact-bg.png");
+  background-image: url('./assests/contact-bg.png');
   background-repeat: no-repeat;
   background-position-x: right;
   border-top-left-radius: 40px;
@@ -371,13 +377,109 @@ button:disabled {
   right: 15px;
 }
 
+.modal {
+  font-size: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 1200px;
+  max-width: 80%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 30px;
+  color: gray;
+}
+
+.modal-body {
+  padding: 5px 15px;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-list {
+  padding-left: 20px;
+  margin-top: -20px;
+}
+
+.btn-img {
+  margin-left: 8px;
+  margin-bottom: -3px;
+}
+
+.modal-img {
+  width: 95%;
+  padding-left: 2.5%;
+}
+
+#btn-modal {
+  color: #396df2;
+  border: 1.5px solid #396df2;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 5px;
+  background-color: transparent;
+  margin: 20px 0;
+  transition: background-color 2s;
+}
+
+#btn-modal:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+#btn-modal:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
 @media screen and (min-width: 992px) {
   p {
     font-size: 20px;
   }
 
   .header {
-    background-image: url("./assests/desktop-header-bg.png");
+    background-image: url('./assests/desktop-header-bg.png');
     padding: 190px 160px 0 160px;
     background-size: contain;
     background-position-y: 50px;
@@ -424,7 +526,7 @@ button:disabled {
     order: 1;
   }
 
-  .works-project-item {
+  .works-project-item2 {
     order: -1;
   }
 
@@ -470,6 +572,6 @@ button:disabled {
   }
 
   .contact {
-    background-image: url("./assests/desktop-contact-bg.png");
+    background-image: url('./assests/desktop-contact-bg.png');
   }
 }
