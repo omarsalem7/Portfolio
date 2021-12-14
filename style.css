@@ -574,4 +574,30 @@ button:disabled {
   .contact {
     background-image: url('./assests/desktop-contact-bg.png');
   }
+ 
+  .modal {
+    font-size: 15px;
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .modal-img {
+    max-height: 420px;
+  }
+
+  .modal-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+  }
+
+  #btn-modal {
+    font-size: 15px;
+  }
+
 }
+
