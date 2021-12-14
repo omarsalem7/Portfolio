@@ -19,13 +19,31 @@
 </head>
 
 <body>
+
+    <!-- <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="title">Example Modal</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum
+            obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus,
+            consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad
+            autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint
+            officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam!
+            Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+        </div>
+    </div>
+    <div id="overlay"></div> -->
+
+
     <!-- overlay mobile menu code -->
     <div id="navbar-overlay" class="overlay-background">
         <a class="closeIcon"><img src="./assests/close-icon.png" alt="Close icon"></a>
         <ul class="overlay-content">
-            <li class="overlay-item"><a href="#portfolio">Portfolio</a></li>
-            <li class="overlay-item"><a href="#about">About</a></li>
-            <li class="overlay-item"><a href="#contact">Contact</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
 
@@ -87,83 +105,10 @@
             </li>
         </ul>
     </section>
-    <!-- portfolio projects works -->
 
+    <!-- Add portfolio projects works dynamically -->
     <section class="works" id="portfolio">
-        <div class="works-project">
-            <img src="./assests/desktop-project1.png" alt="project1" />
-            <div>
-                <h2 class="works-title">Tonic</h2>
-                <ul class="works-list-project">
-                    <li>CANOPY</li>
-                    <li>Back End Dev</li>
-                    <li>2015</li>
-                </ul>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="works-list-skills">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javaScript</li>
-                </ul>
-                <button type="button">See Project</button>
-            </div>
-        </div>
 
-        <div class="works-project">
-            <img src="./assests/desktop-project2.png" class="works-project-item1" alt="project2" />
-            <div class="works-project-item2">
-                <h2 class="works-title">Multi-Post Stories</h2>
-                <ul class="works-list-project">
-                    <li>CANOPY</li>
-                    <li>Back End Dev</li>
-                    <li>2015</li>
-                </ul>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="works-list-skills">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javaScript</li>
-                </ul>
-                <button type="button">See Project</button>
-            </div>
-        </div>
-
-        <div class="works-project">
-            <img src="./assests/desktop-project3.png" alt="project3" />
-            <div>
-                <h2 class="works-title">Tonic</h2>
-                <ul class="works-list-project">
-                    <li>CANOPY</li>
-                    <li>Back End Dev</li>
-                    <li>2015</li>
-                </ul>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="works-list-skills">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javaScript</li>
-                </ul>
-                <button type="button">See Project</button>
-            </div>
-        </div>
-        <div class="works-project">
-            <img src="./assests/desktop-project4.png" class="works-project-item1" alt="project4" />
-            <div class="works-project-item2">
-                <h2 class="works-title">Multi-Post<br> Stories</h2>
-                <ul class="works-list-project">
-                    <li>CANOPY</li>
-                    <li>Back End Dev</li>
-                    <li>2015</li>
-                </ul>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="works-list-skills">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javaScript</li>
-                </ul>
-                <button type="button">See Project</button>
-            </div>
-        </div>
     </section>
 
     <!-- About section -->
@@ -263,6 +208,7 @@
     </section>
 
     <script src="./main.js"></script>
+    <script src="./works.js"></script>
 </body>
 
 </html>
