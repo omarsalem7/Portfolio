@@ -488,6 +488,7 @@ textarea {
 
 .label-error {
   color: rgb(245, 31, 16);
+  font-weight: bold;
 }
 
 @media screen and (min-width: 992px) {
