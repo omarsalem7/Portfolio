@@ -129,8 +129,6 @@ worksData.forEach((work) => {
   document.body.appendChild(overlayContainer);
 });
 
-
-
 // Add open and close functionality modal to works project
 const modalOpenButtons = document.querySelectorAll('[data-modal-target]');
 const overlay = document.getElementById('overlay');
