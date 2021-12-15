@@ -11,8 +11,7 @@ form.addEventListener('submit', function (event) {
   if (emailValue === '') {
     emailMsg.innerHTML = 'Email field is required!';
     emailMsg.classList.add('label-error');
-  }
-  else {
+  } else {
     if (testEmail(emailValue)) {
       form.submit();
     } else {
