@@ -106,7 +106,7 @@ worksData.forEach((work) => {
           <li>Back End Dev</li>
           <li>2015</li>
       </ul>
-      <img class="modal-img"  src=${work.urlImage} alt="${work.title}" />
+      <img class="modal-img"  src=${work.urlImage} alt="${work.name}" />
       <div class="modal-body">
       <div class="modal-detail">${work.description} </div>
        <div class="modal-btns">
