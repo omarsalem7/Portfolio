@@ -12,4 +12,12 @@ form.addEventListener('submit', function (event) {
     emailMsg.innerHTML = 'Email field is required!';
     emailMsg.classList.add('label-error');
   }
+  else {
+    if (testEmail(emailValue)) {
+      form.submit();
+    } else {
+      emailMsg.innerHTML = 'Enter correct format email in lower case:';
+      emailMsg.classList.add('label-error');
+    }
+  }
 });
