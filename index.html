@@ -20,23 +20,6 @@
 
 <body>
 
-    <!-- <div class="modal" id="modal">
-        <div class="modal-header">
-            <div class="title">Example Modal</div>
-            <button data-close-button class="close-button">&times;</button>
-        </div>
-        <div class="modal-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum
-            obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus,
-            consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad
-            autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint
-            officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam!
-            Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
-        </div>
-    </div>
-    <div id="overlay"></div> -->
-
-
     <!-- overlay mobile menu code -->
     <div id="navbar-overlay" class="overlay-background">
         <a class="closeIcon"><img src="./assests/close-icon.png" alt="Close icon"></a>
@@ -198,12 +181,21 @@
             need built or a project that needs coding. I’d
             love to help with it
         </p>
+
         <form class="contact-form" action="https://formspree.io/f/myyogbyl" method="POST">
-            <input class="form-input" name="name" maxlength="30" placeholder="Name" type="text" required />
-            <input class="form-input" name="email" placeholder="email@example.com" type="email" required />
-            <textarea maxlength="500" name="message" rows="6" cols="20" class="form-input"
-                placeholder="Write your message here" required></textarea>
-            <button type="submit" class="contact-btn">Get It Touch</button>
+            <div class="form-container">
+                <div class="sub-container">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter Username" name="name" required>
+                    <label for="email" id="my-email">Email</label>
+                    <input type="email" placeholder="Enter Password" name="email" >
+                    <label for="msg">Message</label>
+                    <textarea rows="7" placeholder="Enter the message" name="msg" required maxlength="500"></textarea>
+                    <button class="contact-btn" type="submit">Login</button>
+                </div>
+
+
+            </div>
         </form>
     </section>
 
