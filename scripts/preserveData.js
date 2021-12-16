@@ -21,5 +21,12 @@ myForm.addEventListener('change', () => {
 //======================================================================
 
 //============ fill data from localstorgae to input value ==============
+function fillFormWithData() {
+  const savedData = getLocalStorageData();
+  inputSeletors.forEach((input) => {
+    input.value = savedData[input.name];
+  });
+}
+fillFormWithData();
 
 //======================================================================
