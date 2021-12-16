@@ -9,7 +9,7 @@ function validEmail(emailValue) {
   if (testEmail(emailValue)) {
     form.submit();
   } else {
-    emailMsg.innerHTML = 'Enter correct format email in lower case';
+    emailMsg.innerHTML = 'Invalid email and should be in lower case';
     emailMsg.classList.add('label-error');
   }
 }
