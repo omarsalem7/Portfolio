@@ -186,18 +186,16 @@
             <div class="form-container">
                 <div class="sub-container">
                     <label for="name">Full Name </label>
-                    <input type="text" id="name" placeholder="Enter Username" name="name" required>
-                    <small class="my-name-label"></small>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Username" name="name" required>
                     <label for="email">Email </label>
-                    <input type="email" id="email" name="email" placeholder="Enter Email" class="form-email">
+                    <input type="email" id="email" class="form-control form-email" name="email"
+                        placeholder="Enter Email">
                     <small class="my-email-label"></small>
                     <label for="msg">Message</label>
-                    <textarea rows="7" id="msg" placeholder="Enter the message" name="msg" required
-                        maxlength="500"></textarea>
+                    <textarea rows="7" id="msg" class="form-control" placeholder="Enter the message" name="message"
+                        required maxlength="500"></textarea>
                     <button class="contact-btn" type="submit">Login</button>
                 </div>
-
-
             </div>
         </form>
     </section>
@@ -205,6 +203,8 @@
     <script src="./scripts/main.js"></script>
     <script src="./scripts/works.js"></script>
     <script src="./scripts/validate.js"></script>
+    <script src="./scripts/preserveData.js"></script>
+
 </body>
 
 </html>
