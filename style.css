@@ -371,6 +371,8 @@ button:disabled {
   background-color: white;
   width: 1200px;
   max-width: 80%;
+  overflow-y: scroll;
+  max-height: 95vh;
 }
 
 .modal.active {
@@ -399,7 +401,7 @@ button:disabled {
 }
 
 .modal-body {
-  padding: 5px 15px;
+  padding: 5px 40px;
 }
 
 #overlay {
@@ -493,6 +495,10 @@ textarea {
   margin-bottom: 20px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 992px) {
   p {
     font-size: 20px;
@@ -509,6 +515,10 @@ textarea {
 
   .navbar-humberger {
     display: none;
+  }
+
+  .header-content {
+    width: 60%;
   }
 
   .navbar-items {
@@ -586,8 +596,17 @@ textarea {
     padding: 0 25% 20px 25%;
   }
 
+  .scroll-show {
+    overflow-y: scroll;
+  }
+
+  .scroll-hide {
+    overflow-y: hidden;
+  }
+
   .modal {
     font-size: 15px;
+    overflow-y: scroll;
   }
 
   .modal-header {
@@ -597,13 +616,13 @@ textarea {
   }
 
   .modal-img {
-    max-height: 420px;
+    height: auto;
   }
 
   .modal-body {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 10px;
+    grid-column-gap: 40px;
   }
 
   #btn-modal {

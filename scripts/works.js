@@ -3,8 +3,8 @@ const worksData = [
     id: 1,
     name: 'Tonic',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    urlImage: './assests/desktop-project1.png',
+      'This project about a business summit 2022 contains the program, speakers, and sponsors sections',
+    urlImage: './assests/mac.png',
     technologies: ['html', 'css', 'javaScript'],
     liveDemo: 'https://omarsalem7.github.io/Portfolio/',
     sourceLink: 'https://github.com/omarsalem7/Portfolio',
@@ -48,7 +48,7 @@ worksData.forEach((work) => {
   let workContent;
   if (work.id % 2 === 0) {
     workContent = ` <div class="works-project">
-      <img class="works-img" src=${work.urlImage} alt="${work.name}" />
+      <img class="works-img" src=${work.urlImage} alt="${work.name}"  draggable="false"/>
       <div>
           <h2 class="works-title">${work.name}</h2>
           <ul class="works-list-project">
@@ -56,7 +56,7 @@ worksData.forEach((work) => {
               <li>Back End Dev</li>
               <li>2015</li>
           </ul>
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <p>${work.description}</p>
           <ul class="works-list-skills">
               <li>${work.technologies[0]}</li>
               <li>${work.technologies[1]}</li>
@@ -67,7 +67,7 @@ worksData.forEach((work) => {
     </div>`;
   } else {
     workContent = ` <div class="works-project">
-      <img class="works-img works-project-item1" src=${work.urlImage} alt="${work.name}" />
+      <img class="works-img works-project-item1" src=${work.urlImage} alt="${work.name}"  draggable="false"/>
       <div class="works-project-item2">
           <h2 class="works-title">${work.name}</h2>
           <ul class="works-list-project">
@@ -75,7 +75,7 @@ worksData.forEach((work) => {
               <li>Back End Dev</li>
               <li>2015</li>
           </ul>
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <p>${work.description}</p>
           <ul class="works-list-skills">
               <li>${work.technologies[0]}</li>
               <li>${work.technologies[1]}</li>
@@ -94,7 +94,7 @@ worksData.forEach((work) => {
   const overlayContainer = document.createElement('div');
   overlayContainer.id = 'overlay';
   const modalContainer = document.createElement('div');
-  modalContainer.id = `modal${work.id}`;
+  modalContainer.id = `modal${work.id}`; //modal1
   modalContainer.classList.add('modal');
   const modalContent = `
       <div class="modal-header">
@@ -106,9 +106,9 @@ worksData.forEach((work) => {
           <li>Back End Dev</li>
           <li>2015</li>
       </ul>
-      <img class="modal-img"  src=${work.urlImage} alt="${work.name}" />
-      <div class="modal-body">
-      <div class="modal-detail">${work.description} </div>
+      <img class="modal-img"  src=${work.urlImage} alt="${work.name}"  draggable="false" />
+       <div class="modal-body">
+       <div class="modal-detail">${work.description} </div>
        <div class="modal-btns">
           <ul class="works-list-skills skills-modal">
               <li>${work.technologies[0]}</li>
@@ -119,8 +119,8 @@ worksData.forEach((work) => {
               <li>Bootstraps</li>
           </ul>
        <div>
-          <button id="btn-modal">See live<img class="btn-img" src="./assests/btn1.svg"/></button>
-          <button id="btn-modal">See Source <img class="btn-img" src="./assests/github-btn.svg"/> </button>
+          <button id="btn-modal"><a target="_blank" href="https://omarsalem7.github.io/Summit-event/">See live<img class="btn-img" src="./assests/btn1.svg"/></a></button>
+          <button id="btn-modal"><a target="_blank" href="https://github.com/omarsalem7/Summit-event">See Source <img class="btn-img" src="./assests/github-btn.svg"/></a> </button>
        </div>
        </div>
       </div>`;
