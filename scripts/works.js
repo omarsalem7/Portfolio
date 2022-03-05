@@ -1,7 +1,7 @@
 const worksData = [
   {
     id: 1,
-    name: 'Tonic',
+    name: 'Business Summit 22',
     description:
       'This project about a business summit 2022 contains the program, speakers, and sponsors sections',
     urlImage: './assests/mac.png',
@@ -11,33 +11,23 @@ const worksData = [
   },
   {
     id: 2,
-    name: 'Multi-Post Stories',
+    name: 'Clothin Store',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    urlImage: './assests/desktop-project2.png',
-    technologies: ['html', 'css', 'javaScript'],
-    liveDemo: 'https://omarsalem7.github.io/Portfolio/',
-    sourceLink: 'https://github.com/omarsalem7/Portfolio',
+      'This is a clothing store for displying products and have different categories',
+    urlImage: './assests/cloths.png',
+    technologies: ['React', 'Redux', 'Firebase', 'SCSS'],
+    liveDemo: 'https://github.com/omarsalem7/clothing-store',
+    sourceLink: 'https://github.com/omarsalem7/clothing-store',
   },
   {
     id: 3,
-    name: 'Tonic',
+    name: 'Food-dishes',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    urlImage: './assests/desktop-project3.png',
-    technologies: ['html', 'css', 'javaScript'],
-    liveDemo: 'https://omarsalem7.github.io/Portfolio/',
-    sourceLink: 'https://github.com/omarsalem7/Portfolio',
-  },
-  {
-    id: 4,
-    name: 'Multi-Post Stories',
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    urlImage: './assests/desktop-project4.png',
-    technologies: ['html', 'css', 'javaScript'],
-    liveDemo: 'https://omarsalem7.github.io/Portfolio/',
-    sourceLink: 'https://github.com/omarsalem7/Portfolio',
+      'This Webapp displays a list of food dishes. The user is able to like any of the meals, and also read more information about each meal once he clicks on the Comment button. Also, the user is able to leave a comment about any meal.',
+    urlImage: './assests/foods.png',
+    technologies: ['javaScript', 'Jest', 'CSS3', 'Webpack'],
+    liveDemo: 'https://foodzz.netlify.app/',
+    sourceLink: 'https://github.com/selma-belhadj/Food-dishes',
   },
 ];
 
@@ -119,8 +109,8 @@ worksData.forEach((work) => {
               <li>Bootstraps</li>
           </ul>
        <div>
-          <button id="btn-modal"><a target="_blank" href="https://omarsalem7.github.io/Summit-event/">See live<img class="btn-img" src="./assests/btn1.svg"/></a></button>
-          <button id="btn-modal"><a target="_blank" href="https://github.com/omarsalem7/Summit-event">See Source <img class="btn-img" src="./assests/github-btn.svg"/></a> </button>
+          <button id="btn-modal"><a target="_blank" href=${work.liveDemo}>See live<img class="btn-img" src="./assests/btn1.svg"/></a></button>
+          <button id="btn-modal"><a target="_blank" href="${work.sourceLink}">See Source <img class="btn-img" src="./assests/github-btn.svg"/></a> </button>
        </div>
        </div>
       </div>`;
