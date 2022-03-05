@@ -24,6 +24,7 @@ Main features of the project:
 - Html
 - Css3
 - JavaScript
+- LocalStorage
 
 ## Live Demo
 
