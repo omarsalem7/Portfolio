@@ -6,18 +6,11 @@
 
 ![screenshot](./assests/main-screen.png)
 
-Main features of the project:
-
-- Navbar
-- Headline section
-- My works section
-- About section
-- Contact Me
-- Send contact info by using Formspree service.
-- Responsive to all screen
-- Have good accessibility
-- Has google analytics
-- Mobile menu navigations
+## Main Features of the Project:
+>To give you a better idea of what I can achieve for your project, I've created a portfolio webpage.
+To provide you a tour of the project, a live demo link has been created utilising github pages!
+As you click on the navigation button on your mobile device, enjoy the speed of the mobile menu; we've also incorporated dynamic data utilising javascript objects (modal window and dynamic presentation of the works section)
+Have fun surfing! 
 
 
 ## Built With
