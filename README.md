@@ -19,16 +19,48 @@ Main features of the project:
 - Has google analytics
 - Mobile menu navigations
 
+
 ## Built With
 
-- Html
-- Css3
-- JavaScript
-- LocalStorage
-
+- Major languages 
+  ```bash
+  - (HTML, CSS, JavaScript)
+  ```
+  
+  - Technologies/ Tools used 
+  
+  ``` bash
+  - Git(version control)
+  - LocalStorage
+  - Linters
+  ```
 ## Live Demo
 
 [Live Demo Link](https://omarsalem7.github.io/Portfolio/)
+
+
+## Getting Started
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+ - A text editor(preferably Visual Studio Code)
+
+### Install
+  -  [Git](https://git-scm.com/downloads)
+ 
+### Usage
+#### Clone this repository
+
+```bash
+$ git clone https://github.com/omarsalem7/Portfolio.git
+$ cd Portfolio 
+```
+#### Run project
+
+```bash
+- Open index.html in browser
+```
+
 
 ## Authors
 
