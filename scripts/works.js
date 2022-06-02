@@ -1,5 +1,15 @@
 const worksData = [
   {
+    id: 0,
+    name: 'Budget App',
+    description:
+      'The Budget App is a mobile-focused web application for managing your spending: you have a list of expenses connected with a category, and you can see how much money you have spent on what and which category. It also displays you which category you spend the most money in and your total monthly expenses, allowing you to make better educated financial decisions.',
+    urlImage: './assests/budget.jpg',
+    technologies: ['Ruby', 'Ruby on Rails', 'Rspec-rails', 'Devise'],
+    liveDemo: 'https://cryptic-mesa-29074.herokuapp.com/',
+    sourceLink: 'https://github.com/omarsalem7/Budget-app',
+  },
+  {
     id: 1,
     name: 'Business Summit 22',
     description:
