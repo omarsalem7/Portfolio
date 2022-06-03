@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Portfolio-blueviolet)
 
 # My Portfolio Project
 
